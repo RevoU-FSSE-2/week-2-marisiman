@@ -1,11 +1,13 @@
-/*assignment-week-2*/
+/*-------------------------------------------------------------ASSIGNMENT-WEEK-2-------------------------------------------------------------*/
 
+/*-----main body-----*/
 body {
-    font-family: Open Sans, sans-serif;
+    /*font-style: courier,arial,helvetica;*/
     background-color: rgb(208, 229, 178);
     margin-top: 1%;
-}
+  }
 
+/*-----navigasi-----*/
 nav {
     position: fixed;
     /*background-color: rgb(177, 229, 105);*/
@@ -15,31 +17,42 @@ nav {
     height: 52px;
     /*border-bottom: 2px solid #22c722;*/
     background: linear-gradient(to left, #f05053 50%, rgb(208, 229, 178));
-}
+  }
 
-em {
-    color: rgb(100, 154, 18);
-    font-style: oblique;
-}
 
-.relative-container {
+
+.main-logo {
     position: relative;
   }
 
 nav > span {
     display: flex;
     align-items: center;
-}
+  }
 
 nav > span > img {
     height: 32px;
     width: auto;
     padding: 10px;
-}
+  }
+
+em {
+    color: rgb(100, 154, 18);
+    font-style: courier,arial,helvetica;
+  }
+
+nav .copyright {
+  font-size: x-small;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18px;
+  right: -7px;
+  }
 
 .desktop {
     display: block;
-}
+  }
 
 nav > ul {
     margin-left: auto;
@@ -55,15 +68,37 @@ nav > ul > li {
 nav > ul > li > a {
     color: rgb(13, 19, 5);
     font-style: oblique;
+    font-size: medium;
   }
+
+.menubar a:hover{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    color: darkblue;
+  }
+
+/*-----first header-----*/
 
 header {
     text-align: center;
-    color: white;
-    background-color: #2222228f;
+    background-image: radial-gradient(50% 100%, rgba(100, 154, 18), rgba(208, 229, 178) 100%);
+    background-blend-mode: normal, lighten, soft-light;
     height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 48px;
+  }
+
+.first-header > h1 {
+    color: white;
+    font-style: oblique;
+  }
+
+.first-header > p {
+    color: white;
+    font-style: normal;
   }
