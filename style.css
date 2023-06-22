@@ -188,13 +188,13 @@ aside {
 
 #daftar-herbal .type-herbal  img {
     width: 100%;
-    height: 300px;
+    min-height: 300px;
     border-radius: 15px;
     object-fit: cover;
   }
 
 #how-to-use{
-    margin-top: 100px;
+    margin-top: 60%;
     
   }
   
@@ -203,10 +203,10 @@ aside {
   background-image: radial-gradient(50% 100%, rgba(100, 154, 18), rgba(208, 229, 178) 100%);
   background-blend-mode: normal, lighten, soft-light;
   }
-  
+
 #how-to-use .user-video video{
-      width: 30%;
-      height: 30%;
+      width: 50%;
+      height: 50%;
       margin: 10px;
       border-radius: 15px;
       object-fit: cover;
