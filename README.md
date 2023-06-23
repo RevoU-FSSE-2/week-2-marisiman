@@ -30,7 +30,7 @@ your suggestions, feedback and input are very useful for my knowledge about this
 
 ### Deployment
 The website implementation process that I use is `netlify`
-Interested to see my starter website..[see here](https://imanmaris-weekly-w2.netlify.app/)
+Interested to see my starter website...[`see here`](https://imanmaris-weekly-w2.netlify.app/)
 
 ===
 week-2-marisiman created by GitHub Classroom

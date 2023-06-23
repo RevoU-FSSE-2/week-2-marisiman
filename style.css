@@ -159,7 +159,7 @@ aside {
     font-style: italic;
     background-color: none;
     font-family: "JetBrains Mono", monospace;
-    font-size: 0.9em;
+    font-size: 0.95em;
     font-style: normal;
     font-weight: bold;
   }
@@ -180,10 +180,10 @@ aside {
   
 #daftar-herbal .type-herbal >div{
     background-color: #65b75c56;
-    width: 13%;
+    width: 15%;
     margin-left: 10px;
     margin-right: 0px;
-    margin-top: 65px;
+    margin-top: 50px;
     margin-bottom: 0;
   }
 
