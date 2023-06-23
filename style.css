@@ -271,16 +271,34 @@ input[type="submit"]{
   font-style: italic;
 }
 
-@media only screen and (max-width: 550px) {
+/* Small devices (landscape phones, 576px and up)*/
+@media only screen and (min-width: 576px) {
 body { 
-background: rgb(255, 0, 0); 
-color: white;
+  background: rgb(208, 229, 178); 
+  color: white;
 }
 }
 
-@media only screen and (min-width: 1500px) {
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
   body{ 
-  background: rgb(0, 0, 255); 
+    background: rgb(200, 229, 178); 
+    color: white;
+ }
+}
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  
+  body{ 
+  background: rgb(190, 229, 178); 
+  color: white;
+}
+}
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+  body{ 
+  background: rgb(180, 229, 178);
   color: white;
   }
   }
