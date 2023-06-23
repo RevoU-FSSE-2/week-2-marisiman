@@ -159,7 +159,7 @@ aside {
     font-style: italic;
     background-color: none;
     font-family: "JetBrains Mono", monospace;
-    font-size: 16px;
+    font-size: 0.9em;
     font-style: normal;
     font-weight: bold;
   }
@@ -180,7 +180,7 @@ aside {
   
 #daftar-herbal .type-herbal >div{
     background-color: #65b75c56;
-    width: 12%;
+    width: 13%;
     margin-left: 10px;
     margin-right: 0px;
     margin-top: 65px;
@@ -196,7 +196,8 @@ aside {
 
 #daftar-herbal .type-herbal  figcaption {
     text-align: center;
-    font-style: oblique; 
+    font-style: oblique;
+    font-size: 0.9em; 
   }
 
 
@@ -260,6 +261,7 @@ input[type="submit"]{
   margin: 8px 0;
   justify-content: center;
   display: inline-block;
+  background-color: rgba(0, 128, 0, 0.038);
 }
 
 /*-----Footer-----*/
@@ -268,3 +270,17 @@ input[type="submit"]{
   text-align: center;
   font-style: italic;
 }
+
+@media only screen and (max-width: 550px) {
+body { 
+background: rgb(255, 0, 0); 
+color: white;
+}
+}
+
+@media only screen and (min-width: 1500px) {
+  body{ 
+  background: rgb(0, 0, 255); 
+  color: white;
+  }
+  }
